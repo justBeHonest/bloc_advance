@@ -2,7 +2,6 @@ import 'package:bloc_advance/features/home/model/product_model.dart';
 import 'package:bloc_advance/product/padding/page_padding.dart';
 import 'package:bloc_advance/product/utility/image/project_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class ProductCard extends StatelessWidget {

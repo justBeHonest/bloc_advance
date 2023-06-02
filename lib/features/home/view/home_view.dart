@@ -2,14 +2,11 @@ import 'package:bloc_advance/features/home/cubit/home_cubit.dart';
 import 'package:bloc_advance/features/home/service/home_service.dart';
 import 'package:bloc_advance/product/constant/application_constant.dart';
 import 'package:bloc_advance/product/network/product_network_manager.dart';
-import 'package:bloc_advance/product/padding/page_padding.dart';
-import 'package:bloc_advance/product/utility/image/project_network_image.dart';
 import 'package:bloc_advance/product/widget/loading_center_widget.dart';
 import 'package:bloc_advance/product/widget/product_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kartal/kartal.dart';
-import 'package:nb_utils/nb_utils.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
