@@ -1,10 +1,10 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:vexana/vexana.dart';
-
+import 'package:equatable/equatable.dart';
 part 'product_model.g.dart';
 
 @JsonSerializable()
-class ProductModel extends INetworkModel<ProductModel> {
+class ProductModel extends INetworkModel<ProductModel> with EquatableMixin {
   int? id;
   String? title;
   double? price;
@@ -24,6 +24,10 @@ class ProductModel extends INetworkModel<ProductModel> {
   String toString() {
     return 'title: $title\n\nprice: $price\n\ndescription: $description\n\ncategory: $category';
   }
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => [id, price];
 }
 
 // class Products {
